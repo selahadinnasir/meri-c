@@ -1,0 +1,41 @@
+.footer {
+  background-color: black;
+  height: auto;
+}
+
+.footer-content {
+  margin-left: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer-content li {
+  color: #8f8c8c;
+  margin-bottom: 10px;
+  margin-left: 120px;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-left: 10px;
+  text-align: left;
+  padding: 60px 0;
+}
+
+ul .h1 {
+  color: white;
+}
+
+.footer hr {
+  border-color: #8f8c8c;
+  margin: 20px 60px;
+}
+
+.copyright {
+  color: #8f8c8c;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}

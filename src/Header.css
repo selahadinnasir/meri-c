@@ -1,0 +1,37 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: #ff9800;
+  color: white;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.logo img {
+  height: 100px;
+  width: 200px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  margin-left: 23%;
+}
+
+.nav-menu ul li {
+  margin-left: 60px;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: text-decoration 0.3s ease;
+}
+
+.nav-menu ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}

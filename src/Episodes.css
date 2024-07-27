@@ -1,0 +1,85 @@
+.episodes-container {
+  text-align: center;
+  padding: 70px;
+}
+
+.episodes-header {
+  font-size: 44px;
+  padding-bottom: 70px;
+  color: #555;
+}
+
+.episodes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.episode-item {
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  /* width: 100%; */
+  text-align: left;
+}
+
+.episode-image {
+  width: 100%;
+  height: auto;
+  /* display: block; */
+}
+
+.episode-details {
+  padding: 10px 5px;
+}
+
+.episode-details h3 {
+  margin: 10px 0;
+  font-size: 3em;
+  font-weight: 900;
+  color: #555;
+}
+
+.episode-details p {
+  margin: 0;
+  color: #555;
+  font-size: 18px;
+}
+/* for small part */
+
+.episode-item-s {
+  display: flex;
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  /* width: 100%; */
+  /* text-align: left; */
+  /* display: inline; */
+}
+
+.episode-image-s {
+  width: 40%;
+  height: auto;
+  /* display: inline; */
+}
+
+.episode-item-s h3 {
+  margin: 5px 10px;
+  font-weight: 900;
+  color: #555;
+}
+
+.episode-item-s p {
+  margin: 0 10px;
+  color: #555;
+}
+
+.episode-details-s {
+  display: flex;
+  flex-wrap: wrap;
+}
